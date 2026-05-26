@@ -20,7 +20,13 @@
             Console.WriteLine("10 - Maior e menor valor (vetor)");
             Console.WriteLine("11 - Media da turma (vetor)");
             Console.WriteLine("12 - Contagem de Par e Impar (Vetor)");
-            Console.WriteLine("13 - Sair \n");
+            Console.WriteLine("13 - Buscar valor (Vetor)");
+            Console.WriteLine("14 - Soma da matriz (Matriz)");
+            Console.WriteLine("15 - Soma da diagonal principal (Matriz)");
+            Console.WriteLine("16 - Soma por linha (Matriz)");
+            Console.WriteLine("17 - Maior elemento e sua posição (Matriz)");
+            Console.WriteLine("18 - Matriz transposta (Matriz)");
+            Console.WriteLine("19 - Sair \n");
             Console.WriteLine("Escolha: ");
 
             int.TryParse(Console.ReadLine(), out opcao);
@@ -76,6 +82,30 @@
                     break;
 
                 case 13:
+                    BuscaDeValorVetor.Executar();
+                    break;
+
+                case 14:
+                    SomaDaMatriz.Executar();
+                    break;
+
+                case 15:
+                    SomaDiagonalPrincipal.Executar();
+                    break;
+
+                case 16:
+                    SomaPorLinha.Executar();
+                    break;
+
+                case 17:
+                    MaiorElementoPosicao.Executar();
+                    break;
+
+                case 18:
+                    MatrizTransposta.Executar();
+                    break;
+
+                case 19:
                     Console.WriteLine("Saindo...");
                     break;
 
@@ -84,6 +114,6 @@
                     break;
             }
 
-        } while (opcao != 13);
+        } while (opcao != 19);
     }
 }
