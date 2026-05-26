@@ -1,122 +1,128 @@
 # 💻 C# Backend Bootcamp – Projetos de Estudo
 
-## 👨‍💻 Autor
-
-Adrian Cesar
-
----
-
-## 📌 1. Domínio do Projeto
-
-Este repositório reúne exercícios desenvolvidos durante meu **bootcamp de backend com C#**, com foco em lógica de programação e fundamentos de desenvolvimento.
-
-Os exercícios simulam problemas comuns que ajudam no desenvolvimento de raciocínio lógico e organização de código.
-
-O sistema (console) permite:
-
-- Execução de múltiplos exercícios através de menu interativo  
-- Entrada de dados validada  
-- Repetição de operações  
-- Organização em múltiplas classes e arquivos  
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-.NET-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/.NET-Console_App-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-success?style=for-the-badge"/>
+</p>
 
 ---
 
-## 📋 2. Conteúdos Praticados
+# 👨‍💻 Autor
 
-- Estruturas de repetição (`for`, `while`)  
-- Estruturas condicionais (`if`, `switch`)  
-- Métodos e funções  
-- Validação de dados com `TryParse`  
-- Organização modular do código  
-- Introdução à Programação Orientada a Objetos (POO)  
+### Adrian Cesar
 
----
-
-## 📋 3. Funcionalidades Implementadas
-
-- Tabuada  
-- Soma acumulada  
-- Validação de entrada  
-- Contagem regressiva  
-- Média com repetição  
-- Média aritmética  
-- Par ou ímpar  
-- Conversor de temperatura  
-- Calculadora  
+Projeto desenvolvido durante meus estudos de backend com C# focado em:
+- lógica de programação
+- algoritmos
+- estruturação de código
+- vetores e matrizes
+- fundamentos de desenvolvimento backend
 
 ---
 
-## 🏗 4. Arquitetura
+# 📌 Sobre o Projeto
 
-O projeto segue uma estrutura simples baseada em **programação modular**, organizada em múltiplos arquivos e classes.
+Este repositório reúne exercícios desenvolvidos em aplicações console utilizando C# e .NET.
 
-Separação:
+O objetivo principal é fortalecer:
+- raciocínio lógico
+- resolução de problemas
+- organização de código
+- manipulação de dados
+- fundamentos da programação
 
-- `Program` → Controle do menu principal  
-- Classes de exercícios → Cada classe representa um exercício  
-- Métodos → Contêm a lógica de execução  
-
-Essa organização permite melhor leitura, manutenção e evolução do código.
-
----
-
-## 🛠 5. Tecnologias Utilizadas
-
-🔹 C#  
-Linguagem principal utilizada no desenvolvimento.  
-**Justificativa:** Forte no backend e amplamente usada no mercado.
-
-🔹 .NET  
-Plataforma para execução da aplicação.  
-**Justificativa:** Suporte robusto e multiplataforma.
-
-🔹 Console Application  
-Aplicação baseada em terminal.  
-**Justificativa:** Ideal para aprendizado de lógica e fundamentos.
+O sistema possui um menu interativo que permite executar múltiplos exercícios separados em classes e arquivos independentes.
 
 ---
 
-## 🔄 6. Funcionalidades Principais
+# 📚 Conteúdos Praticados
 
-✅ Execução de exercícios via menu  
+## 🔹 Fundamentos da Linguagem
+- Variáveis
+- Operadores
+- Entrada e saída de dados
+- Conversão de tipos
 
-✅ Validação de entrada de dados  
+## 🔹 Estruturas de Controle
+- `if`
+- `else`
+- `switch`
+- `for`
+- `while`
+- `do while`
 
-✅ Controle de fluxo com loops e condições  
+## 🔹 Estruturas de Dados
+- Vetores (`array`)
+- Matrizes bidimensionais
 
-✅ Organização em múltiplas classes  
+## 🔹 Manipulação de Dados
+- `TryParse`
+- `Split`
+- Manipulação de strings
+- Alinhamento dinâmico no console
+
+## 🔹 Organização do Código
+- Métodos e funções
+- Programação modular
+- Separação em múltiplas classes
+- Estruturação de menus
+
+## 🔹 Conceitos de Lógica
+- Soma acumulada
+- Busca de elementos
+- Média aritmética
+- Maior e menor valor
+- Diagonal principal
+- Matriz transposta
+- Busca de múltiplas posições
+- Processamento dinâmico de matrizes
 
 ---
 
-## 📈 7. Evolução do Projeto
+# 📋 Exercícios Implementados
 
-Este projeto representa minha evolução em:
-
-- Lógica de programação  
-- Estruturação de código  
-- Boas práticas iniciais  
-- Organização de projetos em C#  
-
-O código será continuamente melhorado conforme avanço nos estudos.
-
----
-
-## 🎯 8. Objetivo
-
-Desenvolver uma base sólida em **backend com C#**, preparando para projetos mais complexos como APIs e aplicações web.
+## 🧮 Exercícios Básicos
+- ✅ Tabuada
+- ✅ Calculadora
+- ✅ Conversor de temperatura
+- ✅ Contagem regressiva
+- ✅ Par ou ímpar
+- ✅ Média aritmética
+- ✅ Soma acumulada
 
 ---
 
-## ▶️ Como Executar
-
-### 🔧 Pré-requisitos
-- .NET SDK instalado (versão 6 ou superior)
-- Git instalado
+## 📊 Vetores
+- ✅ Busca de números
+- ✅ Maior e menor valor
+- ✅ Média de elementos
+- ✅ Contagem de pares e ímpares
+- ✅ Validação de entradas
 
 ---
 
-### 📥 Clonar o repositório
-```bash
-git clone https://github.com/adrian-cesar/backend-bootcamp.git
-cd backend-bootcamp
-dotnet run
+## 🔲 Matrizes
+- ✅ Soma por linha
+- ✅ Diagonal principal
+- ✅ Soma da diagonal principal
+- ✅ Maior elemento e posição
+- ✅ Busca de múltiplas posições
+- ✅ Matriz transposta
+- ✅ Exibição formatada de matrizes
+
+---
+
+# 🏗 Arquitetura do Projeto
+
+O projeto segue uma estrutura modular simples.
+
+```text
+📦 backend-bootcamp
+ ┣ 📂 Exercicios
+ ┃ ┣ 📜 Calculadora.cs
+ ┃ ┣ 📜 MatrizTransposta.cs
+ ┃ ┣ 📜 SomaDiagonalPrincipal.cs
+ ┃ ┗ 📜 ...
+ ┣ 📜 Program.cs
+ ┗ 📜 README.md

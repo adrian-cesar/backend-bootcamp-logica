@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|c:\\backend-bootcamp\\modulo 1\\modulo1\\matriz transposta\\matriztransposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|solutionrelative:matriz transposta\\matriztransposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|c:\\backend-bootcamp\\modulo 1\\modulo1\\maior elemento e posi\u00E7\u00E3o\\maiorelementoposicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|solutionrelative:maior elemento e posi\u00E7\u00E3o\\maiorelementoposicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|c:\\backend-bootcamp\\modulo 1\\modulo1\\18.matriz transposta\\matriztransposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|solutionrelative:18.matriz transposta\\matriztransposta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|c:\\backend-bootcamp\\modulo 1\\modulo1\\menu dos exercicios\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|solutionrelative:menu dos exercicios\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|c:\\backend-bootcamp\\modulo 1\\modulo1\\soma diagonal principal\\somadiagonalprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|solutionrelative:soma diagonal principal\\somadiagonalprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|c:\\backend-bootcamp\\modulo 1\\modulo1\\17.maior elemento e posi\u00E7\u00E3o\\maiorelementoposicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|solutionrelative:17.maior elemento e posi\u00E7\u00E3o\\maiorelementoposicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|c:\\backend-bootcamp\\modulo 1\\modulo1\\soma por linha\\somaporlinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|solutionrelative:soma por linha\\somaporlinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|c:\\backend-bootcamp\\modulo 1\\modulo1\\15.soma diagonal principal\\somadiagonalprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|solutionrelative:15.soma diagonal principal\\somadiagonalprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|c:\\backend-bootcamp\\modulo 1\\modulo1\\16.soma por linha\\somaporlinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946E66B6-B5D9-E89C-E4D9-180A284119B0}|Modulo1.csproj|solutionrelative:16.soma por linha\\somaporlinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,23 +40,23 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MatrizTransposta.cs",
-              "DocumentMoniker": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\Matriz transposta\\MatrizTransposta.cs",
-              "RelativeDocumentMoniker": "Matriz transposta\\MatrizTransposta.cs",
-              "ToolTip": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\Matriz transposta\\MatrizTransposta.cs",
-              "RelativeToolTip": "Matriz transposta\\MatrizTransposta.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwD4AAAAaAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\18.Matriz transposta\\MatrizTransposta.cs",
+              "RelativeDocumentMoniker": "18.Matriz transposta\\MatrizTransposta.cs",
+              "ToolTip": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\18.Matriz transposta\\MatrizTransposta.cs",
+              "RelativeToolTip": "18.Matriz transposta\\MatrizTransposta.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwD4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T21:35:31.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MaiorElementoPosicao.cs",
-              "DocumentMoniker": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\Maior elemento e posi\u00E7\u00E3o\\MaiorElementoPosicao.cs",
-              "RelativeDocumentMoniker": "Maior elemento e posi\u00E7\u00E3o\\MaiorElementoPosicao.cs",
-              "ToolTip": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\Maior elemento e posi\u00E7\u00E3o\\MaiorElementoPosicao.cs",
-              "RelativeToolTip": "Maior elemento e posi\u00E7\u00E3o\\MaiorElementoPosicao.cs",
+              "DocumentMoniker": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\17.Maior elemento e posi\u00E7\u00E3o\\MaiorElementoPosicao.cs",
+              "RelativeDocumentMoniker": "17.Maior elemento e posi\u00E7\u00E3o\\MaiorElementoPosicao.cs",
+              "ToolTip": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\17.Maior elemento e posi\u00E7\u00E3o\\MaiorElementoPosicao.cs",
+              "RelativeToolTip": "17.Maior elemento e posi\u00E7\u00E3o\\MaiorElementoPosicao.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAqwGEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T20:15:40.472Z"
@@ -65,10 +65,10 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "SomaPorLinha.cs",
-              "DocumentMoniker": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\Soma por linha\\SomaPorLinha.cs",
-              "RelativeDocumentMoniker": "Soma por linha\\SomaPorLinha.cs",
-              "ToolTip": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\Soma por linha\\SomaPorLinha.cs",
-              "RelativeToolTip": "Soma por linha\\SomaPorLinha.cs",
+              "DocumentMoniker": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\16.Soma por linha\\SomaPorLinha.cs",
+              "RelativeDocumentMoniker": "16.Soma por linha\\SomaPorLinha.cs",
+              "ToolTip": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\16.Soma por linha\\SomaPorLinha.cs",
+              "RelativeToolTip": "16.Soma por linha\\SomaPorLinha.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T19:17:45.562Z"
@@ -77,25 +77,26 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "SomaDiagonalPrincipal.cs",
-              "DocumentMoniker": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\Soma diagonal principal\\SomaDiagonalPrincipal.cs",
-              "RelativeDocumentMoniker": "Soma diagonal principal\\SomaDiagonalPrincipal.cs",
-              "ToolTip": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\Soma diagonal principal\\SomaDiagonalPrincipal.cs",
-              "RelativeToolTip": "Soma diagonal principal\\SomaDiagonalPrincipal.cs",
+              "DocumentMoniker": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\15.Soma diagonal principal\\SomaDiagonalPrincipal.cs",
+              "RelativeDocumentMoniker": "15.Soma diagonal principal\\SomaDiagonalPrincipal.cs",
+              "ToolTip": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\15.Soma diagonal principal\\SomaDiagonalPrincipal.cs",
+              "RelativeToolTip": "15.Soma diagonal principal\\SomaDiagonalPrincipal.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAgwGoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T22:45:03.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "menu.cs",
               "DocumentMoniker": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\Menu dos exercicios\\menu.cs",
               "RelativeDocumentMoniker": "Menu dos exercicios\\menu.cs",
               "ToolTip": "C:\\backend-bootcamp\\modulo 1\\Modulo1\\Menu dos exercicios\\menu.cs",
               "RelativeToolTip": "Menu dos exercicios\\menu.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAgwGgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwGgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T19:30:27.545Z"
+              "WhenOpened": "2026-04-16T19:30:27.545Z",
+              "EditorCaption": ""
             }
           ]
         }
