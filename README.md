@@ -6,13 +6,7 @@
 
 Projeto desenvolvido durante meus estudos de backend com **C#** e **.NET** focado em lógica de programação, algoritmos e fundamentos do desenvolvimento backend.
 
-<img src="https://img.shields.io/badge/C%23-.NET-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/>
-<img src="https://img.shields.io/badge/.NET-Console_App-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white"/>
-<img src="https://img.shields.io/badge/Status-Em_Desenvolvimento-success?style=for-the-badge"/>
-
 </div>
-
----
 
 # 📌 Sobre o Projeto
 
@@ -277,7 +271,7 @@ git clone https://github.com/adrian-cesar/backend-bootcamp.git
 # 📂 Entrar na pasta do projeto
 
 ```bash
-cd backend-bootcamp
+cd "C:\backend-bootcamp\modulo 1"
 ```
 
 ---
