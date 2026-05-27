@@ -6,6 +6,10 @@
 
 Projeto desenvolvido durante meus estudos de backend com **C#** e **.NET** focado em lógica de programação, algoritmos e fundamentos do desenvolvimento backend.
 
+<img src="https://img.shields.io/badge/C%23-.NET-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/.NET-Console_App-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-Em_Desenvolvimento-success?style=for-the-badge"/>
+
 </div>
 
 ---
@@ -22,7 +26,30 @@ O objetivo principal é fortalecer:
 - manipulação de dados
 - fundamentos da programação
 
-O sistema possui um menu interativo que permite executar múltiplos exercícios separados em classes e arquivos independentes.
+O sistema possui um menu interativo moderno desenvolvido com:
+
+- Console Application
+- Spectre.Console
+- Navegação interativa
+- Interface visual estilizada no terminal
+
+---
+
+# 🎨 Interface do Projeto
+
+O menu principal utiliza a biblioteca **Spectre.Console**, permitindo:
+
+✅ Menus interativos
+
+✅ Navegação com setas
+
+✅ Painéis estilizados
+
+✅ Cores no terminal
+
+✅ Loading animado
+
+✅ Interface mais profissional
 
 ---
 
@@ -124,14 +151,15 @@ O projeto segue uma estrutura modular simples.
  ┃ ┣ 📜 SomaDiagonalPrincipal.cs
  ┃ ┗ 📜 ...
  ┣ 📜 Program.cs
+ ┣ 📜 backend-bootcamp.csproj
  ┗ 📜 README.md
 ```
 
 ---
 
-## 🔹 Organização
+# 🔹 Organização
 
-### `Program.cs`
+## `Program.cs`
 
 Responsável por:
 
@@ -139,7 +167,7 @@ Responsável por:
 - navegação
 - controle da aplicação
 
-### Classes de Exercícios
+## Classes de Exercícios
 
 Cada exercício possui:
 
@@ -147,7 +175,7 @@ Cada exercício possui:
 - lógica isolada
 - responsabilidade única
 
-### Métodos
+## Métodos
 
 Responsáveis por:
 
@@ -164,6 +192,7 @@ Responsáveis por:
 | **C#** | Linguagem principal do projeto |
 | **.NET** | Plataforma de execução |
 | **Console Application** | Aplicação via terminal |
+| **Spectre.Console** | Interface visual moderna para terminal |
 
 ---
 
@@ -187,6 +216,8 @@ Responsáveis por:
 
 ✅ Lógica de programação
 
+✅ Menus interativos no terminal
+
 ---
 
 # 📈 Evolução do Projeto
@@ -207,6 +238,7 @@ Ao longo dos exercícios o projeto evoluiu de programas simples para soluções 
 - melhor visualização de matrizes
 - separação de responsabilidades
 - tratamento de múltiplos casos
+- interface moderna no terminal
 
 ---
 
@@ -234,7 +266,7 @@ Antes de executar o projeto você precisa ter instalado:
 
 ---
 
-## 📥 Clonar o repositório
+# 📥 Clonar o repositório
 
 ```bash
 git clone https://github.com/adrian-cesar/backend-bootcamp.git
@@ -242,7 +274,7 @@ git clone https://github.com/adrian-cesar/backend-bootcamp.git
 
 ---
 
-## 📂 Entrar na pasta do projeto
+# 📂 Entrar na pasta do projeto
 
 ```bash
 cd backend-bootcamp
@@ -250,10 +282,46 @@ cd backend-bootcamp
 
 ---
 
-## ▶️ Executar a aplicação
+# 📦 Instalar dependências
+
+Este projeto utiliza a biblioteca:
+
+- Spectre.Console
+
+Instale as dependências executando:
+
+```bash
+dotnet restore
+```
+
+Ou manualmente:
+
+```bash
+dotnet add package Spectre.Console
+```
+
+---
+
+# ▶️ Executar a aplicação
 
 ```bash
 dotnet run
+```
+
+---
+
+# 🖥 Exemplo da Interface
+
+```text
+╔══════════════════════════════╗
+║        MENU PRINCIPAL        ║
+╚══════════════════════════════╝
+
+▶ 1 - Tabuada
+  2 - Calculadora
+  3 - Matrizes
+  4 - Vetores
+  5 - Sair
 ```
 
 ---
@@ -273,11 +341,12 @@ Durante este projeto venho praticando:
 - estruturação de algoritmos
 - boas práticas iniciais
 - organização de aplicações em C#
+- interfaces modernas para terminal
 
 ---
 
 <div align="center">
 
-### 🚀 Feito com dedicação durante meus estudos de backend em C#
+## 🚀 Feito com dedicação durante meus estudos de backend em C#
 
 </div>

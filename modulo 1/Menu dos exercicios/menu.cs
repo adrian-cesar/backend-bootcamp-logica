@@ -1,119 +1,153 @@
-﻿class Program
+﻿using Spectre.Console;
+
+class Program
 {
     public static async Task Main()
     {
-        int opcao;
+        string escolha;
 
         do
         {
-            Console.Clear();
-            Console.WriteLine("==== Menu de exercicios ====");
-            Console.WriteLine("1 - Tabuada");
-            Console.WriteLine("2 - Soma acumulada");
-            Console.WriteLine("3 - Validacao de entrada");
-            Console.WriteLine("4 - Contagem regressiva");
-            Console.WriteLine("5 - Media com repeticao");
-            Console.WriteLine("6 - Media aritmetica");
-            Console.WriteLine("7 - Par ou impar");
-            Console.WriteLine("8 - Conversor de temperatura");
-            Console.WriteLine("9 - Calculadora");
-            Console.WriteLine("10 - Maior e menor valor (vetor)");
-            Console.WriteLine("11 - Media da turma (vetor)");
-            Console.WriteLine("12 - Contagem de Par e Impar (Vetor)");
-            Console.WriteLine("13 - Buscar valor (Vetor)");
-            Console.WriteLine("14 - Soma da matriz (Matriz)");
-            Console.WriteLine("15 - Soma da diagonal principal (Matriz)");
-            Console.WriteLine("16 - Soma por linha (Matriz)");
-            Console.WriteLine("17 - Maior elemento e sua posição (Matriz)");
-            Console.WriteLine("18 - Matriz transposta (Matriz)");
-            Console.WriteLine("19 - Sair \n");
-            Console.WriteLine("Escolha: ");
+            AnsiConsole.Clear();
 
-            int.TryParse(Console.ReadLine(), out opcao);
+            // Título bonito
+            AnsiConsole.Write(
+                new FigletText("EXERCICIOS")
+                .Centered()
+                .Color(Color.Cyan1));
 
-            switch (opcao)
+            // Painel
+            var painel = new Panel(
+                "[yellow]Escolha uma opção usando as setas do teclado[/]")
+                .Border(BoxBorder.Double)
+                .BorderColor(Color.Cyan1)
+                .Padding(1, 1);
+
+            AnsiConsole.Write(painel);
+
+            // Menu interativo
+            escolha = AnsiConsole.Prompt(
+                new SelectionPrompt<string>()
+                .Title("\n[green]MENU PRINCIPAL[/]")
+                .PageSize(10)
+                .HighlightStyle(new Style(Color.Black, Color.Cyan1))
+                .AddChoices(new[]
+                {
+                    "1 - Tabuada",
+                    "2 - Soma acumulada",
+                    "3 - Validacao de entrada",
+                    "4 - Contagem regressiva",
+                    "5 - Media com repeticao",
+                    "6 - Media aritmetica",
+                    "7 - Par ou impar",
+                    "8 - Conversor de temperatura",
+                    "9 - Calculadora",
+                    "10 - Maior e menor valor (vetor)",
+                    "11 - Media da turma (vetor)",
+                    "12 - Contagem de Par e Impar (Vetor)",
+                    "13 - Buscar valor (Vetor)",
+                    "14 - Soma da matriz (Matriz)",
+                    "15 - Soma da diagonal principal",
+                    "16 - Soma por linha",
+                    "17 - Maior elemento e sua posicao",
+                    "18 - Matriz transposta",
+                    "19 - Sair"
+                }));
+
+            switch (escolha)
             {
-                case 1:
+                case "1 - Tabuada":
                     Tabuada.Executar();
                     break;
 
-                case 2:
+                case "2 - Soma acumulada":
                     SomaAcumulada.Executar();
                     break;
 
-                case 3:
+                case "3 - Validacao de entrada":
                     ValidacaoDeEntrada.Executar();
                     break;
 
-                case 4:
+                case "4 - Contagem regressiva":
                     await ContagemRegressiva.Executar();
                     break;
 
-                case 5:
+                case "5 - Media com repeticao":
                     MediaComRepeticao.Executar();
                     break;
 
-                case 6:
+                case "6 - Media aritmetica":
                     MediaAritmetica.Executar();
                     break;
 
-                case 7:
+                case "7 - Par ou impar":
                     ParOuImpar.Executar();
                     break;
 
-                case 8:
+                case "8 - Conversor de temperatura":
                     ConversorDeTemperatura.Executar();
                     break;
 
-                case 9:
+                case "9 - Calculadora":
                     Calculadora.Executar();
                     break;
 
-                case 10:
+                case "10 - Maior e menor valor (vetor)":
                     MaiorMenorValor.Executar();
                     break;
 
-                case 11:
+                case "11 - Media da turma (vetor)":
                     MediaTurma.Executar();
                     break;
 
-                case 12:
+                case "12 - Contagem de Par e Impar (Vetor)":
                     ContagemParImpar.Executar();
                     break;
 
-                case 13:
+                case "13 - Buscar valor (Vetor)":
                     BuscaDeValorVetor.Executar();
                     break;
 
-                case 14:
+                case "14 - Soma da matriz (Matriz)":
                     SomaDaMatriz.Executar();
                     break;
 
-                case 15:
+                case "15 - Soma da diagonal principal":
                     SomaDiagonalPrincipal.Executar();
                     break;
 
-                case 16:
+                case "16 - Soma por linha":
                     SomaPorLinha.Executar();
                     break;
 
-                case 17:
+                case "17 - Maior elemento e sua posicao":
                     MaiorElementoPosicao.Executar();
                     break;
 
-                case 18:
+                case "18 - Matriz transposta":
                     MatrizTransposta.Executar();
                     break;
 
-                case 19:
-                    Console.WriteLine("Saindo...");
-                    break;
+                case "19 - Sair":
 
-                default:
-                    Console.WriteLine("Opcao invalida!");
+                    await AnsiConsole.Status()
+                        .StartAsync("[yellow]Saindo do sistema...[/]", async ctx =>
+                        {
+                            await Task.Delay(1500);
+                        });
+
                     break;
             }
 
-        } while (opcao != 19);
+        } while (escolha != "19 - Sair");
+
+        // Mensagem final
+        AnsiConsole.Clear();
+
+        var sair = new Panel("[red]Programa encerrado![/]")
+            .Border(BoxBorder.Rounded)
+            .BorderColor(Color.Red);
+
+        AnsiConsole.Write(sair);
     }
 }
