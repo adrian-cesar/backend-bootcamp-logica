@@ -1,288 +1,166 @@
-# 💻 C# Backend Bootcamp – Projetos de Estudo
+````md
+# Backend Bootcamp - Lógica
 
 <div align="center">
 
-## 👨‍💻 Adrian Cesar
+## Adrian Cesar
 
 Projeto desenvolvido durante meus estudos de backend com **C#** e **.NET** focado em lógica de programação, algoritmos e fundamentos do desenvolvimento backend.
 
 </div>
 
-# 📌 Sobre o Projeto
+---
 
-Este repositório reúne exercícios desenvolvidos em aplicações console utilizando C# e .NET.
+## Sobre o Projeto
 
-O objetivo principal é fortalecer:
+Este repositório reúne exercícios práticos desenvolvidos em aplicações console utilizando C# e .NET.
 
-- raciocínio lógico
-- resolução de problemas
-- organização de código
+O foco do projeto é fortalecer os fundamentos da programação backend através da prática constante de:
+
+- lógica de programação
+- estruturas de controle
 - manipulação de dados
-- fundamentos da programação
+- vetores e matrizes
+- organização de código
+- resolução de problemas
 
-O sistema possui um menu interativo moderno desenvolvido com:
-
-- Console Application
-- Spectre.Console
-- Navegação interativa
-- Interface visual estilizada no terminal
+O projeto utiliza uma arquitetura simples e modular, onde cada exercício possui sua própria classe e responsabilidade isolada.
 
 ---
 
-# 🎨 Interface do Projeto
+## Principais Conceitos Trabalhados
 
-O menu principal utiliza a biblioteca **Spectre.Console**, permitindo:
+### Fundamentos da Linguagem
 
-✅ Menus interativos
-
-✅ Navegação com setas
-
-✅ Painéis estilizados
-
-✅ Cores no terminal
-
-✅ Loading animado
-
-✅ Interface mais profissional
-
----
-
-# 📚 Conteúdos Praticados
-
-## 🔹 Fundamentos da Linguagem
-
-- Variáveis
+- Variáveis e tipos
 - Operadores
 - Entrada e saída de dados
 - Conversão de tipos
+- Manipulação de strings
 
-## 🔹 Estruturas de Controle
+### Estruturas de Controle
 
-- `if`
-- `else`
-- `switch`
-- `for`
-- `while`
-- `do while`
+- if / else
+- switch
+- for
+- while
+- do while
 
-## 🔹 Estruturas de Dados
+### Estruturas de Dados
 
-- Vetores (`array`)
+- Arrays
 - Matrizes bidimensionais
 
-## 🔹 Manipulação de Dados
+### Validação e Processamento
 
-- `TryParse`
-- `Split`
-- Manipulação de strings
-- Alinhamento dinâmico no console
+- TryParse
+- Validação de entradas
+- Processamento dinâmico de matrizes
+- Busca e manipulação de elementos
 
-## 🔹 Organização do Código
+### Organização do Código
 
-- Métodos e funções
+- Métodos
 - Programação modular
-- Separação em múltiplas classes
+- Separação de responsabilidades
 - Estruturação de menus
 
-## 🔹 Conceitos de Lógica
+---
 
+## Exercícios Implementados
+
+### Exercícios Básicos
+
+- Tabuada
 - Soma acumulada
-- Busca de elementos
 - Média aritmética
-- Maior e menor valor
+- Conversor de temperatura
+- Par ou ímpar
+- Contagem regressiva
+- Calculadora
+
+### Vetores
+
+- Busca de valores
+- Maior e menor elemento
+- Média da turma
+- Contagem de pares e ímpares
+
+### Matrizes
+
+- Soma da matriz
+- Soma por linha
 - Diagonal principal
 - Matriz transposta
-- Busca de múltiplas posições
-- Processamento dinâmico de matrizes
+- Maior elemento e posição
 
 ---
 
-# 📋 Exercícios Implementados
+## Interface do Projeto
 
-## 🧮 Exercícios Básicos
+O sistema utiliza:
 
-- ✅ Tabuada
-- ✅ Calculadora
-- ✅ Conversor de temperatura
-- ✅ Contagem regressiva
-- ✅ Par ou ímpar
-- ✅ Média aritmética
-- ✅ Soma acumulada
+- Aplicação Console
+- Navegação por menu interativo
+- Interface moderna utilizando Spectre.Console
+- Painéis e cores no terminal
 
 ---
 
-## 📊 Vetores
-
-- ✅ Busca de números
-- ✅ Maior e menor valor
-- ✅ Média de elementos
-- ✅ Contagem de pares e ímpares
-- ✅ Validação de entradas
-
----
-
-## 🔲 Matrizes
-
-- ✅ Soma por linha
-- ✅ Diagonal principal
-- ✅ Soma da diagonal principal
-- ✅ Maior elemento e posição
-- ✅ Busca de múltiplas posições
-- ✅ Matriz transposta
-- ✅ Exibição formatada de matrizes
-
----
-
-# 🏗 Arquitetura do Projeto
-
-O projeto segue uma estrutura modular simples.
+## Estrutura do Projeto
 
 ```text
-📦 backend-bootcamp
- ┣ 📂 Exercicios
- ┃ ┣ 📜 Calculadora.cs
- ┃ ┣ 📜 MatrizTransposta.cs
- ┃ ┣ 📜 SomaDiagonalPrincipal.cs
- ┃ ┗ 📜 ...
- ┣ 📜 Program.cs
- ┣ 📜 backend-bootcamp.csproj
- ┗ 📜 README.md
-```
+backend-bootcamp-logica/
+├── Exercicios/
+│   ├── Calculadora.cs
+│   ├── SomaDaMatriz.cs
+│   ├── MatrizTransposta.cs
+│   └── ...
+├── Program.cs
+├── backend-bootcamp-logica.csproj
+└── README.md
+````
 
 ---
 
-# 🔹 Organização
+## Tecnologias Utilizadas
 
-## `Program.cs`
-
-Responsável por:
-
-- menu principal
-- navegação
-- controle da aplicação
-
-## Classes de Exercícios
-
-Cada exercício possui:
-
-- classe própria
-- lógica isolada
-- responsabilidade única
-
-## Métodos
-
-Responsáveis por:
-
-- entrada de dados
-- processamento
-- exibição de resultados
+* C#
+* .NET
+* Spectre.Console
 
 ---
 
-# 🛠 Tecnologias Utilizadas
+## Como Executar
 
-| Tecnologia | Descrição |
-|---|---|
-| **C#** | Linguagem principal do projeto |
-| **.NET** | Plataforma de execução |
-| **Console Application** | Aplicação via terminal |
-| **Spectre.Console** | Interface visual moderna para terminal |
+### Pré-requisitos
 
----
+Antes de executar o projeto é necessário possuir instalado:
 
-# 🔄 Principais Conceitos Trabalhados
-
-✅ Estruturas condicionais
-
-✅ Estruturas de repetição
-
-✅ Vetores
-
-✅ Matrizes
-
-✅ Manipulação de strings
-
-✅ Validação de dados
-
-✅ Organização modular
-
-✅ Formatação de saída no console
-
-✅ Lógica de programação
-
-✅ Menus interativos no terminal
+* .NET SDK 6 ou superior
+* Git
 
 ---
 
-# 📈 Evolução do Projeto
-
-Este projeto representa minha evolução prática em:
-
-- lógica de programação
-- organização de código
-- resolução de problemas
-- manipulação de vetores e matrizes
-- validação de entradas
-- boas práticas iniciais em C#
-
-Ao longo dos exercícios o projeto evoluiu de programas simples para soluções mais organizadas e robustas, incluindo:
-
-- validações mais seguras
-- alinhamento dinâmico no console
-- melhor visualização de matrizes
-- separação de responsabilidades
-- tratamento de múltiplos casos
-- interface moderna no terminal
-
----
-
-# 🎯 Objetivo
-
-Construir uma base sólida em desenvolvimento backend com C#, evoluindo futuramente para:
-
-- Programação Orientada a Objetos (POO)
-- APIs REST
-- Banco de Dados
-- Entity Framework
-- ASP.NET Core
-- Aplicações Web
-
----
-
-# ▶️ Como Executar
-
-## 🔧 Pré-requisitos
-
-Antes de executar o projeto você precisa ter instalado:
-
-- .NET SDK 6 ou superior
-- Git
-
----
-
-# 📥 Clonar o repositório
+### Clonar o repositório
 
 ```bash
-git clone https://github.com/adrian-cesar/backend-bootcamp.git
+git clone https://github.com/adrian-cesar/backend-bootcamp-logica.git
 ```
 
 ---
 
-# 📂 Entrar na pasta do projeto
+### Entrar na pasta do projeto
 
 ```bash
-cd "C:\backend-bootcamp\modulo 1"
+cd "C:\backend-bootcamp-logica\src"
 ```
 
 ---
 
-# 📦 Instalar dependências
+### Restaurar dependências
 
-Este projeto utiliza a biblioteca:
-
-- Spectre.Console
-
-Instale as dependências executando:
+O projeto utiliza a biblioteca Spectre.Console para a interface do terminal.
 
 ```bash
 dotnet restore
@@ -296,7 +174,7 @@ dotnet add package Spectre.Console
 
 ---
 
-# ▶️ Executar a aplicação
+### Executar o projeto
 
 ```bash
 dotnet run
@@ -304,43 +182,24 @@ dotnet run
 
 ---
 
-# 🖥 Exemplo da Interface
+## Objetivo
 
-```text
-╔══════════════════════════════╗
-║        MENU PRINCIPAL        ║
-╚══════════════════════════════╝
+Este projeto faz parte da minha trilha de estudos em desenvolvimento backend com C#.
 
-▶ 1 - Tabuada
-  2 - Calculadora
-  3 - Matrizes
-  4 - Vetores
-  5 - Sair
+Os próximos módulos de estudo incluem:
+
+* Programação Orientada a Objetos
+* SQL
+* APIs REST
+* ASP.NET Core
+* Entity Framework
+* Arquitetura de Software
+
+---
+
+## Status
+
+Projeto em desenvolvimento contínuo para prática de lógica e fundamentos do backend.
+
 ```
-
----
-
-# 🚀 Status do Projeto
-
-📚 Projeto em desenvolvimento contínuo como parte dos meus estudos em backend com C#.
-
----
-
-# ⭐ Aprendizados
-
-Durante este projeto venho praticando:
-
-- resolução de problemas
-- pensamento lógico
-- estruturação de algoritmos
-- boas práticas iniciais
-- organização de aplicações em C#
-- interfaces modernas para terminal
-
----
-
-<div align="center">
-
-## 🚀 Feito com dedicação durante meus estudos de backend em C#
-
-</div>
+```

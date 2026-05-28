@@ -1,2 +1,117 @@
-modulo 1/.vs/
+```gitignore
+# =========================
+# Build / Binários
+# =========================
+bin/
+obj/
+out/
+dist/
+build/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Rider / JetBrains
+# =========================
+.idea/
+*.sln.iml
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Arquivos temporários
+# =========================
+tmp/
+temp/
+*.tmp
+*.cache
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# =========================
+# Tailwind / Frontend
+# =========================
+.coverage/
+.next/
+.nuxt/
+.svelte-kit/
+
+# =========================
+# Ambiente
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Banco de dados local
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Arquivos de sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Publicação
+# =========================
+publish/
+
+# =========================
+# Testes
+# =========================
+TestResults/
+coverage/
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+packages/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Arquivos sensíveis
+# =========================
+secrets.json
+appsettings.Development.json
+
+# =========================
+# Arquivos gerados automaticamente
+# =========================
+Generated/
+```
+
 Estudos teorico/
