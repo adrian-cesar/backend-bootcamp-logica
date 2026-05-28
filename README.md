@@ -1,9 +1,6 @@
-````md
 # Backend Bootcamp - Lógica
 
 <div align="center">
-
-## Adrian Cesar
 
 Projeto desenvolvido durante meus estudos de backend com **C#** e **.NET** focado em lógica de programação, algoritmos e fundamentos do desenvolvimento backend.
 
@@ -15,55 +12,51 @@ Projeto desenvolvido durante meus estudos de backend com **C#** e **.NET** focad
 
 Este repositório reúne exercícios práticos desenvolvidos em aplicações console utilizando C# e .NET.
 
-O foco do projeto é fortalecer os fundamentos da programação backend através da prática constante de:
+O objetivo do projeto é fortalecer a base de desenvolvimento backend através da prática de lógica de programação, resolução de problemas e organização de código.
 
-- lógica de programação
-- estruturas de controle
-- manipulação de dados
-- vetores e matrizes
-- organização de código
-- resolução de problemas
-
-O projeto utiliza uma arquitetura simples e modular, onde cada exercício possui sua própria classe e responsabilidade isolada.
+Os exercícios abordam conceitos fundamentais da linguagem e estruturas clássicas utilizadas no desenvolvimento de software.
 
 ---
 
-## Principais Conceitos Trabalhados
+## Conteúdos Trabalhados
 
-### Fundamentos da Linguagem
+### Fundamentos
 
-- Variáveis e tipos
-- Operadores
-- Entrada e saída de dados
-- Conversão de tipos
-- Manipulação de strings
+* Variáveis e tipos
+* Operadores
+* Entrada e saída de dados
+* Conversão de tipos
+* Manipulação de strings
 
 ### Estruturas de Controle
 
-- if / else
-- switch
-- for
-- while
-- do while
+* if / else
+* switch
+* for
+* while
+* do while
 
 ### Estruturas de Dados
 
-- Arrays
-- Matrizes bidimensionais
+* Arrays
+* Matrizes bidimensionais
 
-### Validação e Processamento
+### Lógica e Processamento
 
-- TryParse
-- Validação de entradas
-- Processamento dinâmico de matrizes
-- Busca e manipulação de elementos
+* Média aritmética
+* Busca de elementos
+* Maior e menor valor
+* Soma acumulada
+* Diagonal principal
+* Matriz transposta
+* Validação de entradas
 
 ### Organização do Código
 
-- Métodos
-- Programação modular
-- Separação de responsabilidades
-- Estruturação de menus
+* Métodos
+* Programação modular
+* Separação de responsabilidades
+* Estruturação de menus
 
 ---
 
@@ -71,39 +64,34 @@ O projeto utiliza uma arquitetura simples e modular, onde cada exercício possui
 
 ### Exercícios Básicos
 
-- Tabuada
-- Soma acumulada
-- Média aritmética
-- Conversor de temperatura
-- Par ou ímpar
-- Contagem regressiva
-- Calculadora
+* Tabuada
+* Calculadora
+* Conversor de temperatura
+* Contagem regressiva
+* Média aritmética
+* Par ou ímpar
+* Soma acumulada
 
 ### Vetores
 
-- Busca de valores
-- Maior e menor elemento
-- Média da turma
-- Contagem de pares e ímpares
+* Busca de valores
+* Maior e menor elemento
+* Média da turma
+* Contagem de pares e ímpares
 
 ### Matrizes
 
-- Soma da matriz
-- Soma por linha
-- Diagonal principal
-- Matriz transposta
-- Maior elemento e posição
+* Soma da matriz
+* Soma por linha
+* Soma da diagonal principal
+* Matriz transposta
+* Maior elemento e posição
 
 ---
 
-## Interface do Projeto
+## Interface da Aplicação
 
-O sistema utiliza:
-
-- Aplicação Console
-- Navegação por menu interativo
-- Interface moderna utilizando Spectre.Console
-- Painéis e cores no terminal
+O projeto utiliza aplicação console com navegação por menu interativo utilizando a biblioteca Spectre.Console.
 
 ---
 
@@ -119,7 +107,7 @@ backend-bootcamp-logica/
 ├── Program.cs
 ├── backend-bootcamp-logica.csproj
 └── README.md
-````
+```
 
 ---
 
@@ -135,12 +123,8 @@ backend-bootcamp-logica/
 
 ### Pré-requisitos
 
-Antes de executar o projeto é necessário possuir instalado:
-
 * .NET SDK 6 ou superior
 * Git
-
----
 
 ### Clonar o repositório
 
@@ -148,33 +132,25 @@ Antes de executar o projeto é necessário possuir instalado:
 git clone https://github.com/adrian-cesar/backend-bootcamp-logica.git
 ```
 
----
-
 ### Entrar na pasta do projeto
 
 ```bash
 cd "C:\backend-bootcamp-logica\src"
 ```
 
----
-
 ### Restaurar dependências
-
-O projeto utiliza a biblioteca Spectre.Console para a interface do terminal.
 
 ```bash
 dotnet restore
 ```
 
-Ou manualmente:
+Caso necessário:
 
 ```bash
 dotnet add package Spectre.Console
 ```
 
----
-
-### Executar o projeto
+### Executar a aplicação
 
 ```bash
 dotnet run
@@ -186,7 +162,7 @@ dotnet run
 
 Este projeto faz parte da minha trilha de estudos em desenvolvimento backend com C#.
 
-Os próximos módulos de estudo incluem:
+Os próximos módulos incluem:
 
 * Programação Orientada a Objetos
 * SQL
@@ -199,7 +175,4 @@ Os próximos módulos de estudo incluem:
 
 ## Status
 
-Projeto em desenvolvimento contínuo para prática de lógica e fundamentos do backend.
-
-```
-```
+Projeto em desenvolvimento contínuo para prática de lógica de programação e fundamentos do backend.
