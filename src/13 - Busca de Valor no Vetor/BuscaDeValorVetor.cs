@@ -84,7 +84,7 @@ class BuscaDeValorVetor
                         Console.Write(", ");
                     }
 
-                    Console.Write(i);
+                    Console.Write(i + 1);
 
                     primeiro = false;
                     encontrado = true;

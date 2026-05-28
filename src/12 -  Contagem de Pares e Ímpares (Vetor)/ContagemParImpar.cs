@@ -86,7 +86,7 @@ class ContagemParImpar
 
         Console.Clear();
         Console.WriteLine($"Voce digitou {qntPar} numeros pares, seus numeros pares sao [{String.Join(" ,", pares)}]\n");
-        Console.WriteLine($"Voce digitou {qntImpar} numeros pares, seus numeros pares sao [{String.Join(" ,", impares)}]\n");
+        Console.WriteLine($"Voce digitou {qntImpar} numeros impares, seus numeros impares sao [{String.Join(" ,", impares)}]\n");
         Console.WriteLine($"Seus numeros digitados sao [{String.Join(" ,", numeros)}]\n");
         Console.WriteLine("Pressione qualquer tecla para voltar ao menu,");
         Console.ReadKey();
